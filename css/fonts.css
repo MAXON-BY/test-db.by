@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "UbuntuBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/UbuntuBold/UbuntuBold.eot?#iefix") format("embedded-opentype"), url("../fonts/UbuntuBold/UbuntuBold.woff") format("woff"), url("../fonts/UbuntuBold/UbuntuBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RobotoBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoBold/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "VAGRound";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/VAG Round/VAG Round.eot?#iefix") format("embedded-opentype"), url("../fonts/VAG Round/VAG Round.woff") format("woff"), url("../fonts/VAG Round/VAG Round.ttf") format("truetype"); }
