@@ -4,8 +4,9 @@
 
 	<meta charset="utf-8">
 
-	<title>Заголовок</title>
-	<meta name="description" content="">
+	<title>Тестовое задание</title>
+	<meta name="description" content="Тестовое задание от студии Борового">
+    <meta name="author" content="Max Nyrkov">
 
 	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
 	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
@@ -25,34 +26,44 @@
 </head>
 
 <body>
-
         <!-- Header -->
         <header>
             <div class="container">
                 <div class="row">
-                    <div class="top_line">
-                        <!-- Logo -->
-                        <div class="col-md-6 col-sm-6">
+                    <div class="col-md-12 col-sx-12">
+                        <div class="top_line">
+                            <!-- Logo -->
                             <div class="logo">
                                 <img src="img/logo.png" alt="logo"/>
                                 <h1>Логотип</h1>
                                 <p>Инжиниринговая компания</p>
                             </div>
-                        </div>
-                        <!-- Search - form -->
-                        <div class="col-md-6 col-sm-6">
-                            <form action="" method="">
+                            <!-- Search - form -->
+                            <form action="/index" method="post">
                                 <input class="search-txt" type="text">
                                 <input class="search-btn" type="submit" value="">
                             </form>
-                        </div>
-                    </div><!-- .top_line -->
+                        </div><!-- .top_line -->
+                    </div><!-- .col-md-12 col-sx-12 -->
                 </div><!-- .row -->
 
                 <!-- Navigation - top-->
                 <div class="row">
-                    <div class="col-md-12">
-                        <nav>
+                    <div class="col-md-12 col-sm-12">
+                        <!-- Menu for telephones -->
+                        <nav class="visible-min">
+                            <a class="dropdown-toggle" href="#" title="Menu">Меню</a>
+                            <ul class="dropdown">
+                                <li><a href="#">О компании</a></li>
+                                <li><a href="#">Услуги</a></li>
+                                <li><a href="#">Объекты</a></li>
+                                <li><a href="#">Закупки</a></li>
+                                <li><a class="active" href="#">Партнеры</a></li>
+                                <li><a href="#">Новости</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </nav>
+                        <nav class="visible">
                             <ul class="top_nav">
                                 <li><a href="#">О компании</a></li>
                                 <li><a href="#">Услуги</a></li>
@@ -63,98 +74,107 @@
                                 <li><a href="#">Контакты</a></li>
                             </ul>
                         </nav>
-                    </div>
-                </div>
+                    </div><!-- .col-md-12 col-sm-12 -->
+                </div><!-- .row -->
 
             </div><!-- .container -->
         </header>
 
 
-        <div class="container">
-            <div class="row">
-                    <div class="community_slider">
-
-                        <div id="owl-demo">
-                            <div class="item">
-                                <img src="img/assets/1.jpg" alt="Owl Image">
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 ">
+                        <!-- SLIDER OWL-->
+                        <div class="community_slider">
+                            <div id="owl-demo">
+                                <!-- SLIDER #1-->
+                                <div class="item">
+                                    <img src="img/assets/1.jpg" alt="Owl Image">
                                     <div class="carousel-caption">
                                         <span>Наши компетенции</span>
-                                        <h1>Объекты химимческой промышленности</h1>
+                                        <h2>Объекты химимческой промышленности</h2>
                                         <p>
                                             Важнейшим преимуществом компании является способность проектировать и строить «под ключ».
                                             При этом данные процессы ведутся одновременно, что позволяет заказчику значительно сократить общий строительный цикл объекта.
                                         </p>
-
                                     </div>
-                            </div>
-                            <div class="item">
-                                <img src="img/assets/1.jpg" alt="Owl Image">
-                                <div class="carousel-caption">
-                                    <span>Наши компетенции</span>
-                                    <h1>Объекты химимческой промышленности</h1>
-                                    <p>
-                                        Важнейшим преимуществом компании является способность проектировать и строить «под ключ».
-                                        При этом данные процессы ведутся одновременно, что позволяет заказчику значительно сократить общий строительный цикл объекта.
-                                    </p>
                                 </div>
-                            </div>
-                            <div class="item">
-                                <img src="img/assets/1.jpg" alt="Owl Image">
-                                <div class="carousel-caption">
-                                    <span>Наши компетенции</span>
-                                    <h1>Объекты химимческой промышленности</h1>
-                                    <p>
-                                        Важнейшим преимуществом компании является способность проектировать и строить «под ключ».
-                                        При этом данные процессы ведутся одновременно, что позволяет заказчику значительно сократить общий строительный цикл объекта.
-                                    </p>
+                                <!-- SLIDER #2-->
+                                <div class="item">
+                                    <img src="img/assets/1.jpg" alt="Owl Image">
+                                    <div class="carousel-caption">
+                                        <span>Наши компетенции</span>
+                                        <h2>Объекты химимческой промышленности</h2>
+                                        <p>
+                                            Важнейшим преимуществом компании является способность проектировать и строить «под ключ».
+                                            При этом данные процессы ведутся одновременно, что позволяет заказчику значительно сократить общий строительный цикл объекта.
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="item">
-                                <img src="img/assets/1.jpg" alt="Owl Image">
-                                <div class="carousel-caption">
-                                    <span>Наши компетенции</span>
-                                    <h1>Объекты химимческой промышленности</h1>
-                                    <p>
-                                        Важнейшим преимуществом компании является способность проектировать и строить «под ключ».
-                                        При этом данные процессы ведутся одновременно, что позволяет заказчику значительно сократить общий строительный цикл объекта.
-                                    </p>
+                                <!-- SLIDER #3-->
+                                <div class="item">
+                                    <img src="img/assets/1.jpg" alt="Owl Image">
+                                    <div class="carousel-caption">
+                                        <span>Наши компетенции</span>
+                                        <h2>Объекты химимческой промышленности</h2>
+                                        <p>
+                                            Важнейшим преимуществом компании является способность проектировать и строить «под ключ».
+                                            При этом данные процессы ведутся одновременно, что позволяет заказчику значительно сократить общий строительный цикл объекта.
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-
+                                <!-- SLIDER #4-->
+                                <div class="item">
+                                    <img src="img/assets/1.jpg" alt="Owl Image">
+                                    <div class="carousel-caption">
+                                        <span>Наши компетенции</span>
+                                        <h2>Объекты химимческой промышленности</h2>
+                                        <p>
+                                            Важнейшим преимуществом компании является способность проектировать и строить «под ключ».
+                                            При этом данные процессы ведутся одновременно, что позволяет заказчику значительно сократить общий строительный цикл объекта.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- SLIDER #51 -->
+                                <div class="item">
+                                    <img src="img/assets/1.jpg" alt="Owl Image">
+                                    <div class="carousel-caption">
+                                        <span>Наши компетенции</span>
+                                        <h2>Объекты химимческой промышленности</h2>
+                                        <p>
+                                            Важнейшим преимуществом компании является способность проектировать и строить «под ключ».
+                                            При этом данные процессы ведутся одновременно, что позволяет заказчику значительно сократить общий строительный цикл объекта.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div><!-- #owl-demo -->
+                        </div><!-- .community_slider -->
+                    </div><!-- .col-md-12 -->
+                </div><!-- .row -->
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="footer_line">
+                            <nav class="footer_nav">
+                                <ul>
+                                    <li><a href="#"><img src="img/nav_1.png" alt="#empty"/>Услуги проектирования</a></li>
+                                    <li><a href="#"><img src="img/nav_2.png" alt="#empty"/>Строительно-монтажные работы </a></li>
+                                    <li><a href="#"><img src="img/nav_3.png" alt="#empty"/>Экспертная деятельность</a></li>
+                                    <li><a href="#"><img src="img/nav_4.png" alt="#empty"/>Техническое обслуживание </a></li>
+                                    <li><a href="#"><img src="img/nav_5.png" alt="#empty"/>Испытательная лаборатория </a></li>
+                                </ul>
+                            </nav>
+                        </div><!-- .footer_line -->
                     </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <nav>
-                        <ul class="footer_nav">
-                            <li><img src="#" alt=""/><a href="#">Услуги проектирования</a></li>
-                            <li><img src="#" alt=""/><a class="active" href="#">Строительно-монтажные работы </a></li>
-                            <li><img src="#" alt=""/><a href="#">Экспертная деятельность</a></li>
-                            <li><img src="#" alt=""/><a href="#">Техническое обслуживание </a></li>
-                            <li><img src="#" alt=""/><a href="#">Испытательная лаборатория </a></li>
-                        </ul>
-                    </nav>
                 </div>
-            </div>
-        </div>
+            </div><!-- .container -->
+        </section>
 
 
-	
-	<div class="hidden">
 
-        <div class="item">
-            <img src="images/3_3.png" alt="">
-            <div class="carousel-caption">
-                <h3>Третий слайд</h3>
-                <p>Описание третьего слайда</p>
-            </div>
-        </div>
 
-    </div>
+
+	<div class="hidden"></div>
 
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>

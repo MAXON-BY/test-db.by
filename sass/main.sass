@@ -6,7 +6,7 @@ $main_color: #f29700
 body
   font-family: "Arial", sans-serif
   font-weight: normal
-  font-size: 14px
+  font-size: 13px
   min-width: 320px
 
 .hidden
@@ -20,6 +20,8 @@ header
     .logo
       overflow: hidden
       padding: 25px 0
+      width: 320px
+      float: left
       img
         float: left
         margin: 0 10px
@@ -33,12 +35,14 @@ header
         font-size: 12px
         color: #6f6f6f
     form
-      border: 1px solid #e5e5e5
-      border-radius: 3px
       width: 238px
       height: 24px
       float: right
       margin-top: 45px
+      border: 1px solid #e5e5e5
+      border-radius: 3px
+      -webkit-border-radius: 3px
+
       .search-txt
 
         padding-left: 5px
@@ -53,7 +57,7 @@ header
 .top_nav
   overflow: hidden
   margin: 0 auto
-  width: 765px
+  max-width: 765px
   li
     float: left
     a
@@ -83,7 +87,6 @@ header
   width: 600px
   left: 100px
   top: 60px
-
   span
     font-family: "RobotoBold", sans-serif
     font-size: 16px
@@ -92,15 +95,78 @@ header
     padding: 5px 9px
     background: $main_color
     box-shadow: 0 1px 0 rgba(0,0,0,0.3) /* Параметры тени */
-  h1
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.3)
+  h2
     font-family: "RobotoBold", sans-serif
     font-size: 60px
     line-height: 49px
     margin: 13px 0 25px
     color: #fff
     text-shadow: 0 1px 0 rgba(0,0,0,0.3) /* Параметры тени */
+    -webkit-text-shadow: 0 1px 0 rgba(0,0,0,0.3)
   p
     color: #fff
     font-size: 16px
     font-weight: bold
     text-shadow: 0 1px 0 rgba(0,0,0,0.3) /* Параметры тени */
+    -webkit-text-shadow: 0 1px 0 rgba(0,0,0,0.3)
+
+.owl-buttons
+  display: none
+
+.footer_line
+  border-bottom: 1px solid #dbddde
+  overflow: hidden
+.footer_nav
+  margin: 0 auto
+  max-width: 940px
+  ul
+    height: 112px
+    li
+      max-width: 184px
+      display: inline-block
+      a
+        font-family: "Arial", sans-serif
+        font-weight: bold
+        margin: 0 auto
+        color: #3c4148
+        display: table-cell
+        padding: 35px 5px 35px 5px
+        vertical-align: middle
+        &:hover
+          background: #eeeeee
+          border-left:  1px solid #dbddde
+          border-right:  1px solid #dbddde
+        img
+          float: left
+          padding-right: 7px
+
+.visible-min a
+  font-family: "Arial", sans-serif
+  font-weight: bold
+  font-size: 15px
+  text-decoration: none
+  color: #fff
+  nav
+    position: relative
+
+.dropdown-toggle
+  padding: .5em 1em
+  background: #777
+
+ul.dropdown
+  display: none
+  top: 100%
+  margin-top: .5em
+  background: #777
+  min-width: 12em
+  padding: 0
+
+li
+  list-style-type: none
+a
+  text-decoration: none
+  padding: .5em 1em
+  display: block
+  &:hover
+    background: $main_color
