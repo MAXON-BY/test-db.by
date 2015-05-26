@@ -1,0 +1,172 @@
+@import "reset.css"
+@import "bourbon/bourbon"
+
+$main_color: #f29700
+
+body
+  font-family: "Arial", sans-serif
+  font-weight: normal
+  font-size: 13px
+  min-width: 320px
+
+.hidden
+  display: none
+
+header
+  .top_line
+    overflow: hidden
+    border-top: 1px solid #bebebe
+    border-bottom: 1px solid #dbddde
+    .logo
+      overflow: hidden
+      padding: 25px 0
+      width: 320px
+      float: left
+      img
+        float: left
+        margin: 0 10px
+      h1
+        font-family: "UbuntuBold", sans-serif
+        font-size: 24px
+        margin-top: 9px
+        height: 31px
+        color: $main_color
+      p
+        font-size: 12px
+        color: #6f6f6f
+    form
+      width: 238px
+      height: 24px
+      float: right
+      margin-top: 45px
+      border: 1px solid #e5e5e5
+      border-radius: 3px
+      -webkit-border-radius: 3px
+
+      .search-txt
+        padding-left: 5px
+        width: 207px
+      .search-btn
+        width: 15px
+        height: 15px
+        padding: 0
+        margin-top: 3px
+        background: url("../img/search_btn.png") no-repeat
+
+.top_nav
+  overflow: hidden
+  margin: 0 auto
+  max-width: 765px
+  li
+    float: left
+    a
+      padding: 14px 23px 12px 18px
+      display: block
+      color: #3c4148
+      font-family: "Arial", sans-serif
+      font-weight: bold
+      font-size: 15px
+      &:hover
+        background: $main_color
+        color: #fff
+  .active
+    background: #3c4148
+    color: #fff
+
+#owl-demo .item img
+  display: block
+  width: 100%
+  height: auto
+
+.item
+  img
+    position: relative
+.carousel-caption
+  position: absolute
+  width: 600px
+  left: 100px
+  top: 60px
+  span
+    font-family: "RobotoBold", sans-serif
+    font-size: 16px
+    text-transform: uppercase
+    color: #fff
+    padding: 5px 9px
+    background: $main_color
+    box-shadow: 0 1px 0 rgba(0,0,0,0.3) /* Параметры тени */
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.3)
+  h2
+    font-family: "RobotoBold", sans-serif
+    font-size: 60px
+    line-height: 49px
+    margin: 13px 0 25px
+    color: #fff
+    text-shadow: 0 1px 0 rgba(0,0,0,0.3) /* Параметры тени */
+    -webkit-text-shadow: 0 1px 0 rgba(0,0,0,0.3)
+  p
+    color: #fff
+    font-size: 16px
+    font-weight: bold
+    text-shadow: 0 1px 0 rgba(0,0,0,0.3) /* Параметры тени */
+    -webkit-text-shadow: 0 1px 0 rgba(0,0,0,0.3)
+
+.owl-buttons
+  display: none
+
+.footer_line
+  border-bottom: 1px solid #dbddde
+  overflow: hidden
+.footer_nav
+  margin: 0 auto
+  max-width: 940px
+  ul
+    height: 112px
+    li
+      max-width: 184px
+      display: inline-block
+      img
+        float: left
+        padding-right: 7px
+      a
+        font-family: "Arial", sans-serif
+        font-weight: bold
+        margin: 0 auto
+        color: #3c4148
+        display: table-cell
+        padding: 35px 5px 35px 5px
+        vertical-align: middle
+        &:hover
+          background: #eeeeee
+          border-left:  1px solid #dbddde
+          border-right:  1px solid #dbddde
+
+
+.visible-min a
+  font-family: "Arial", sans-serif
+  font-weight: bold
+  font-size: 15px
+  text-decoration: none
+  color: #fff
+  nav
+    position: relative
+
+.dropdown-toggle
+  padding: .5em 1em
+  background: #777
+
+ul.dropdown
+  display: none
+  top: 100%
+  margin-top: .5em
+  background: #777
+  min-width: 12em
+  padding: 0
+
+li
+  list-style-type: none
+a
+  text-decoration: none
+  padding: .5em 1em
+  display: block
+  &:hover
+    background: $main_color
