@@ -49,22 +49,23 @@ header .top_line {
     header .top_line form .search-txt {
       padding-left: 5px;
       width: 207px; }
-    /* line 50, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
+    /* line 49, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
     header .top_line form .search-btn {
       width: 15px;
       height: 15px;
-      padding-top: 3px;
-      background: url("/img/search_btn.png") no-repeat; }
+      padding: 0;
+      margin-top: 3px;
+      background: url("../img/search_btn.png") no-repeat; }
 
-/* line 57, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
+/* line 56, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
 .top_nav {
   overflow: hidden;
   margin: 0 auto;
   max-width: 765px; }
-  /* line 61, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
+  /* line 60, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
   .top_nav li {
     float: left; }
-    /* line 63, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
+    /* line 62, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
     .top_nav li a {
       padding: 14px 23px 12px 18px;
       display: block;
@@ -72,32 +73,32 @@ header .top_line {
       font-family: "Arial", sans-serif;
       font-weight: bold;
       font-size: 15px; }
-      /* line 70, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
+      /* line 69, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
       .top_nav li a:hover {
         background: #f29700;
         color: #fff; }
-  /* line 73, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
+  /* line 72, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
   .top_nav .active {
     background: #3c4148;
     color: #fff; }
 
-/* line 77, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
+/* line 76, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
 #owl-demo .item img {
   display: block;
   width: 100%;
   height: auto; }
 
-/* line 83, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
+/* line 82, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
 .item img {
   position: relative; }
 
-/* line 85, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
+/* line 84, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
 .carousel-caption {
   position: absolute;
   width: 600px;
   left: 100px;
   top: 60px; }
-  /* line 90, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
+  /* line 89, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
   .carousel-caption span {
     font-family: "RobotoBold", sans-serif;
     font-size: 16px;
@@ -108,7 +109,7 @@ header .top_line {
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
     /* Параметры тени */
     -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3); }
-  /* line 99, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
+  /* line 98, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
   .carousel-caption h2 {
     font-family: "RobotoBold", sans-serif;
     font-size: 60px;
@@ -118,7 +119,7 @@ header .top_line {
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
     /* Параметры тени */
     -webkit-text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3); }
-  /* line 107, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
+  /* line 106, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
   .carousel-caption p {
     color: #fff;
     font-size: 16px;
@@ -127,27 +128,31 @@ header .top_line {
     /* Параметры тени */
     -webkit-text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3); }
 
-/* line 114, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
+/* line 113, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
 .owl-buttons {
   display: none; }
 
-/* line 117, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
+/* line 116, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
 .footer_line {
   border-bottom: 1px solid #dbddde;
   overflow: hidden; }
 
-/* line 120, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
+/* line 119, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
 .footer_nav {
   margin: 0 auto;
   max-width: 940px; }
-  /* line 123, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
+  /* line 122, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
   .footer_nav ul {
     height: 112px; }
-    /* line 125, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
+    /* line 124, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
     .footer_nav ul li {
       max-width: 184px;
       display: inline-block; }
-      /* line 128, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
+      /* line 127, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
+      .footer_nav ul li img {
+        float: left;
+        padding-right: 7px; }
+      /* line 130, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
       .footer_nav ul li a {
         font-family: "Arial", sans-serif;
         font-weight: bold;
@@ -156,15 +161,11 @@ header .top_line {
         display: table-cell;
         padding: 35px 5px 35px 5px;
         vertical-align: middle; }
-        /* line 136, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
+        /* line 138, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
         .footer_nav ul li a:hover {
           background: #eeeeee;
           border-left: 1px solid #dbddde;
           border-right: 1px solid #dbddde; }
-        /* line 140, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
-        .footer_nav ul li a img {
-          float: left;
-          padding-right: 7px; }
 
 /* line 144, C:/Users/Max/PhpstormProjects/db.by/sass/main.sass */
 .visible-min a {

@@ -8,13 +8,9 @@ $(document).ready(function() {
         singleItem : true,
         items : 1,
         itemsDesktop: false,
-
-        // "singleItem:true" is a shortcut for:
-        // items : 1,
-        // itemsDesktop : false,
-         itemsDesktopSmall : false,
-         itemsTablet: false,
-         itemsMobile : false
+        itemsDesktopSmall : false,
+        itemsTablet: false,
+        itemsMobile : false
     });
 
 

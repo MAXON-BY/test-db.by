@@ -1,20 +1,16 @@
 /*==========  Desktop First Method  ==========*/
-
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
     .visible-min{
         display: none;
     }
-
 }
-
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
     .visible-min{
         display: none;
     }
 }
-
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
@@ -30,7 +26,7 @@
     .carousel-caption span{
         font-size: 14px
     }
-    .carousel-caption h1{
+    .carousel-caption h2{
         font-size: 43px;
         line-height: 37px
     }
@@ -54,37 +50,48 @@
         padding-bottom: 12px;
         float: none;
     }
-
 }
-
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-    .visible{
+    .visible {
         display: none;
     }
-    .visible-min{
+    .visible-min {
         display: block;
-
     }
-    .carousel-caption{
+    .carousel-caption {
         position: absolute;
         width: 285px;
         left: 30px;
         top: 20px;
     }
-    .carousel-caption span{
+    .carousel-caption span {
         font-size: 10px
     }
-    .carousel-caption h1{
+    .carousel-caption h2 {
         font-size: 27px;
         line-height: 22px;
         margin: 10px 0 10px;
     }
-    .carousel-caption p{
+    .carousel-caption p {
         font-size: 10px
     }
-
-
+}
+@media only screen and (min-width:621px) and (max-width : 768px){
+    .footer_nav{
+        width: 552px;
+    }
+    .footer_nav ul li{
+        width: 107px;
+    }
+    .footer_nav ul li a{
+        font-size: 10px;
+        padding: 20px 0;
+    }
+    .footer_nav img{
+        padding-left: 34px;
+        padding-right: 34px;
+    }
 }
 @media only screen and (max-width : 620px) {
     .footer_nav ul li{
@@ -101,14 +108,17 @@
         padding-left: 20px;
     }
 }
-
-
 @media only screen and (max-width : 605px) {
     form{
        display: none;
     }
-}
+    .carousel-caption{
 
+        width: 320px;
+        left: 30px;
+        top: 20px;
+    }
+}
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     .carousel-caption{
@@ -120,33 +130,32 @@
     .carousel-caption span{
         font-size: 8px
     }
-    .carousel-caption h1{
+    .carousel-caption h2{
         font-size: 25px;
         line-height: 20px;
         margin: 10px 0 10px;
     }
     .carousel-caption p{
-        font-size: 8px
+        display: none;
     }
-
     .logo{
         width: 320px;
     }
     form{
         width: 320px;
     }
-
-
     .footer_nav ul li a{
         padding: 15px 0;
     }
     .footer_nav img{
         padding-left: 20px;
     }
+    .owl-controls clickable{
+        display: none;
+    }
 }
-
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 380px) {
     .logo{
         width: 320px;
         float: none;
@@ -154,32 +163,12 @@
     form{
         width: 320px;
     }
-}
-
-
-/*==========  Mobile First Method  ==========*/
-
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-
-}
-
- /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-
+    .owl-controls clickable{
+        display: none;
+    }
+    .carousel-caption h2{
+        font-size: 20px;
+        line-height: 16px;
+        margin: 10px 0 10px;
+    }
 }
